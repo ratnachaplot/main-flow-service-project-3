@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 20, 20);
+    color: beige;
+}
+
+form {
+    padding: 10px;
+    width: fit-content;
+}
+
+fieldset {
+    padding: 5px 20px 12px 20px;
+    border-radius: 10px;
+    border-color: rgb(98, 177, 201);
+    width: 22vw;
+}
+
+legend {
+    color: rgb(138, 179, 240);
+    
+}
+
+input,select,textarea {
+    border-radius: 8px;
+    padding: 0 5px 0 5px;
+    border: none;
+    outline: none;
+}
+
+.first input{
+    width: 90%
+}
+
+#country{
+    width: 67%
+}
+
+::placeholder{
+    font-size: 16px;
+}

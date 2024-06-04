@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="userForm">
+
+        <fieldset>
+            <legend>Fill Your Details</legend>
+            <div class="first">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="your name.." ><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="your last name.." required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="your email.." required><br><br>
+        </div>
+
+        <div class="second">
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male<br>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Other" name="gender" value="Other">
+            <label for="Other">Other</label>
+            <br><br>
+        </div>
+
+        <div class="third">
+            <label for="country">Country: </label>
+            <select id="country" name="country">
+                <option value="India" selected>India</option>
+                <option value="JFemalen">Japan</option>
+                <option value="Australia">Australia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Canada">Canada</option>
+            </select>
+            <br><br>
+        </div>
+
+        <div class="fourth">
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="27" placeholder="Write something.."></textarea>
+            <br><br>
+        </div>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <script src="script.js"></script> 
+</body>
+</html>
